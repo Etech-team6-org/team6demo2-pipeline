@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Ronald') {
             steps {
-                sh 'ps -ef'
+                sh 'lscpu'
                 sh 'sudo systemctl status jenkins'
             }
         }
