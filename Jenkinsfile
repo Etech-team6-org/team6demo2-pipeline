@@ -13,7 +13,7 @@ pipeline {
                 sh 'sudo systemctl status jenkins'
             }
         }
-        stage('Ronald') {
+        stage('jojo') {
             steps {
                 sh 'lscpu'
                 sh 'sudo systemctl status jenkins'
