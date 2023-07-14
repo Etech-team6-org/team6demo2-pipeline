@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Mercy') {
             steps {
-                sh 'lscpu'
+                sh 'whoami'
                 sh 'sudo systemctl status jenkins'
             }
         }
